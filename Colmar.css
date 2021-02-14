@@ -1,0 +1,486 @@
+ /*Universal styles*/
+ 
+body{
+    margin: 0px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.1rem;
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 17px;
+}
+
+.mobile{
+    display: none;
+}
+
+/**********Header Section**********/
+
+header{
+    height: 64px;
+    width: 100%;
+    background-color: rgb(240, 232, 232);
+    align-items: center;
+    z-index: 10;  
+    display: flex;
+    justify-content: space-between;
+} 
+
+.logo{
+    padding-left: 24px;
+    height: 24px;
+    
+}
+
+span{
+    position: relative;
+   bottom: 5px;
+   left: -5px;
+   
+}
+
+.Academy_gray{ 
+    color:rgb(194, 185, 185);
+}
+
+nav{
+    padding-right: 24px;
+}
+
+nav a{
+    padding-left: 16px;
+} 
+
+a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+}
+
+nav img{
+    display: none;
+}
+
+/**********1st section**********/
+
+.Section1{
+    background-color: rgba(146, 140, 140, 0.541); 
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-top: 32px; 
+    display: flex;
+    align-items: center;  
+}
+     
+.Section1 img{
+    width: 60%;
+    margin-right: 24px;
+    overflow: hidden;
+}
+
+.Learn{
+    font-size: 1.3rem;
+    color: rgb(92, 87, 87);
+    padding-left: 25px;
+}
+
+.Learn h1{
+    margin: 0px;
+}
+
+.foreigntxt{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 27px;
+}
+
+.button{
+    background-color: rgb(92, 87, 87);
+    height: 60px;
+    width: 350px;
+    font-size: 1.2rem;
+    border-radius: 9px;
+}
+
+/***********2nd section***********/
+
+.Section2{
+    color: rgb(92, 87, 87);
+    padding-top: 32px; 
+    padding-bottom: 32px;
+    padding-left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Section2 img{
+    width: 60%;
+    overflow: hidden;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 4;
+}
+
+.Section2_text{
+    flex-basis: 60%;
+    height: 50%;
+    overflow: hidden;
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.right_container{
+    flex-basis: 40%;
+    flex-grow: 3;
+    align-items: stretch;
+    flex-shrink: 2;
+}
+
+.foreigntxt2{
+    font-size: .75rem;
+    font-weight: 200;
+    line-height: 1.5;
+    padding-left: 5px;
+    padding-bottom: 32px;
+    padding-right: 0%;
+    margin: 0px;
+}
+
+.practice{
+    padding: 32px 0px 24px 8px;
+    margin: 0px;
+}
+
+.designer{
+    padding-left: 5px;
+    margin: 0%;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    border: solid rgba(207, 201, 201, 0.164);
+    overflow: hidden;
+    height: auto;
+    margin-left: 24px;
+}
+
+.box img{
+   width: 35%;
+   overflow: hidden;
+   height: auto;
+   margin: 16px;
+}
+
+
+.box .text{
+    width: 65%;
+    color: black;
+   
+}
+
+.text a{
+    color: blue;
+    font-size: .9rem;
+    
+}
+
+.text h6{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.text h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+#color.box{
+    background-color: rgba(100, 96, 96, 0.295);
+}
+
+/**********3rd Section**********/
+
+.Section3{
+    text-align: center;
+    background-color: rgba(146, 140, 140, 0.219); 
+    color: rgb(92, 87, 87);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    padding-right: 72px;    
+}
+    
+.Wrapper1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.Learn2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 32px;
+}
+
+.Imgwrap{   
+    width: 25%;
+    min-height: 20rem;
+    margin: 2rem;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+.Imgwrap img{
+    max-width:100%;
+    height: auto;
+    display:block;
+}
+
+.body{
+    padding-left: 16px;
+}
+
+.topics{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+/**********4th Section**********/
+
+.Thesis{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(92, 87, 87);
+    text-align: center;
+}
+
+.Section4{
+    color: rgb(92, 87, 87);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.video{
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+
+.video_title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.text2{
+    order: 2;
+}
+
+.foreigntxt3{
+    font-size: .75rem;
+    font-weight: 200;
+    line-height: 1.5;
+    padding-left: 5px;
+    padding-bottom: 32px;
+    padding-right: 0%;
+    margin: 0px;
+}
+
+.right_container2{ 
+     flex-basis: 40%;
+
+}
+
+.Section4_box{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
+    margin-left: 24px;
+}
+
+.Section4_box img{
+   width: 35%;
+   overflow: hidden;
+   height: auto;
+   margin: 16px;
+}
+
+.Section4_box .text{
+    width: 65%;
+    color: rgb(92, 87, 87);
+    overflow: hidden;
+    text-align: left;
+}
+
+#color.Section4_box{
+    background-color: rgba(100, 96, 96, 0.295)
+}
+
+.Solid{
+    border-top: 3px solid rgba(209, 200, 200, 0.705);
+    margin: 0;
+}
+
+/**********Footer**********/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+footer h6{
+    margin: 18px 24px;
+    word-spacing: 1px;
+}
+
+footer p{
+    font-size: 12.529px;
+    font-weight: 600;
+}
+
+/**********Mobile view**********/
+
+@media only screen and (max-width:700px){
+
+.mobile{
+    display: initial;
+}    
+    
+.desktop{
+    display: none;
+}
+  
+nav img{
+    display: initial;
+}
+
+nav a{
+    display: none;
+}
+
+span{
+    display: none;
+}
+
+header{
+    justify-content: space-around;
+   
+}
+
+/**********Mobile view Sec 1**********/
+
+.Section1{
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px; 
+    display: inline;
+    background-color: white;    
+}
+
+.Section1 img{
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.Learn{
+    font-size: 1rem;
+    padding-left: 0px;
+    margin-top: 32px;
+    text-align: center; 
+}
+
+/**********Mobile view Sec 2**********/
+  
+.Section2 img, .Section2_text, .box .desktop{
+    display: none;
+}
+
+.box img{
+    display: initial; 
+    width: 75%;  
+}
+
+.box{
+    display: inline;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 16px;
+}
+
+.box .text{
+    margin-left: 35px;
+}
+
+#color.box{
+     background-color: white; 
+}
+ 
+/**********Mobile view Sec 3**********/
+    
+.Learn2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+    
+.Section3{
+    padding: 0px;
+}
+    
+.topics, .Imgwrap img, .courses{
+    display: none;
+}
+    
+.Imgwrap{   
+    width: 100%;
+    min-height: auto;
+    margin: .5rem;
+    background-color: lightgrey;
+    text-align: left;
+    overflow: hidden; 
+    padding: 0px;
+}
+
+/**********Mobile view Sec 4**********/
+
+.foreigntxt3, .video_title, .Section4_box{
+    display: none;
+}
+
+.video{
+    width: 100%;
+    min-height: auto;
+    overflow: hidden;
+}
+
+/**********Mobile footer**********/
+    
+footer p{
+    display: none;
+}
+
+footer h6{
+    width: 100%;
+}
+
+}
