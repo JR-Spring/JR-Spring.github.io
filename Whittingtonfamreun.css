@@ -33,7 +33,7 @@ header{
 
   li, a{
     display: inline;
-    color: #8c6b48;
+    color: blue;
     text-decoration: none;
     transition: color 500ms ease-in 2ms;
   }
@@ -46,6 +46,11 @@ header{
     font-size: 25px;
     text-align: center;
     padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  nav ul {
+    margin-bottom: 0px;
   }
 
   .Casino{
