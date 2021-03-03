@@ -90,10 +90,8 @@ header{
     margin: 100px auto;
     border: 3px solid red;
     padding: 5px; 
-    margin-bottom: 100px;
-    position: relative;
-    bottom: 50px;
-  }
+    
+  } 
     
   td{
     border: 2px solid #8c6b48;
@@ -101,16 +99,13 @@ header{
     color: white;
   }
   
-    /*footer h3 {
-    display: inline-block;
-    font-size: 14px;
-    background-color: #242f44;}*/
+
   
   .container{
-    max-width: 940px;
+    
     margin: 0 auto;
-    height: 900px;
-  }
+    
+  } 
     
   .left{
     width: 150px;
@@ -118,19 +113,22 @@ header{
 
   .box{
     float: right;
+    position: relative;
+    right: 50px;
+    bottom: 250px;
   }
 
   #button{
     color: white;
-    font-size: small;
+    font-size: medium;
     background-color: gray;
     box-shadow: 5px 0px 5px 0px rgba(79, 79, 138, 0.97);
     font-weight: bold;
     font-style: oblique;
     float: right;
     position: relative;
-    top: 75px;
-    left: 340px;
+    bottom: 125px;
+    left: 372px;
     padding: 5px 7px 5px 7px;
   }
 
@@ -140,16 +138,11 @@ header{
     padding-bottom: 5px;
   }
 
-  /*This is for the link to send to top of page*/
   #Top{
     color:  hsl(0, 0%, 100%);
     font-size: larger;
     font-weight: 600;
     margin-left: 1%;
-    /*position: absolute;
-    top: 330%;*/
-    /*position: absolute;
-    bottom: 30%;*/ 
     transition: color 1s ease-in 2ms;
   }
 
@@ -157,7 +150,8 @@ header{
     color: red;
   }
 
-  /*footer stuff*/
+  /*footer */
+  
   footer{
     width: 100%;
     position: fixed;
@@ -187,7 +181,7 @@ header{
     color: #a56c32;
   }
 
-  @media only screen and (max-width: 1180px){
+  @media only screen and (max-width: 1410px){
     .box{
           display: none;
         }
