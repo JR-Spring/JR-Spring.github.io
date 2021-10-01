@@ -6,5 +6,5 @@ Codecademy Capstone build a website project, tasked with creating a website for 
 * HTML  
 * CSS  
 * Git  
-* GitHub  
 * Responsive
+* Flexbox
